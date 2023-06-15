@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2023 KOINSLOT, Inc.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+description: "An embedded game engine paired with Kywy hardware"
+url: "https://github.com/KOINSLOT-Inc/kywy"
+dependencies:
+  idf:
+    version: ">5.0.0"
+  kywy/actor:
+    git: https://github.com/KOINSLOT-Inc/actor.git
+  kywy/display:
+    git: https://github.com/KOINSLOT-Inc/display.git
